@@ -1,14 +1,12 @@
-QR ScanApp
-
 Aplicación móvil en React Native + Expo para escanear códigos QR, guardar historial y administrar registros.
 
-👥 Integrantes
+Integrantes
 
 Emmanuel Narro Renteria
 
 Sonia Ontiveros Soto
 
-📝 Descripción
+Descripción
 
 QR ScanApp es una aplicación móvil que permite escanear códigos QR usando la cámara del dispositivo.
 Cada escaneo se guarda automáticamente en un historial interno, desde el cual el usuario puede:
@@ -21,11 +19,11 @@ Borrar todo el historial
 
 La aplicación está construida con Expo SDK 54 y utiliza expo-camera para el escaneo.
 
-🔐 Permisos utilizados
+Permisos utilizados
 Permiso	Uso
-📷 Cámara	Escanear códigos QR con CameraView de expo-camera.
-💾 Almacenamiento (AsyncStorage)	Guardar historial de escaneos localmente dentro del dispositivo.
-🛠 Tecnologías utilizadas
+Cámara	Escanear códigos QR con CameraView de expo-camera.
+Almacenamiento (AsyncStorage)	Guardar historial de escaneos localmente dentro del dispositivo.
+Tecnologías utilizadas
 
 React Native
 
@@ -43,32 +41,32 @@ JavaScript
 
 ▶ ¿Cómo instalar / ejecutar la app?
 
-1️⃣ Clonar el proyecto
+Clonar el proyecto
 
 git clone <url-del-repositorio>
 cd my-qr-app
 
-2️⃣ Instalar dependencias
+Instalar dependencias
 
 npm install
 
-3️⃣ Instalar módulos de Expo necesarios
+Instalar módulos de Expo necesarios
 
 npx expo install expo-camera @react-native-async-storage/async-storage
 
 npx expo install react-native-screens react-native-safe-area-context
 
-4️⃣ Ejecutar el proyecto
+Ejecutar el proyecto
 
 npx expo start
 
-5️⃣ Escanear con Expo Go
+Escanear con Expo Go
 
 Abre Expo Go en tu celular
 
 Escanea el código QR que aparece en la terminal o en el navegador
 
-📸 Capturas de pantalla
+Capturas de pantalla
 Pantalla principal – Escáner
 
 ![Imagen de WhatsApp 2025-12-04 a las 11 17 26_966d20c8](https://github.com/user-attachments/assets/86b3fa28-dfeb-405d-beb2-a8ae02487045)
