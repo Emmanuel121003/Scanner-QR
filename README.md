@@ -8,7 +8,7 @@ Emmanuel Narro Renteria
 
 Sonia Ontiveros Soto
 
-📝 Descripción breve
+📝 Descripción
 
 QR ScanApp es una aplicación móvil que permite escanear códigos QR usando la cámara del dispositivo.
 Cada escaneo se guarda automáticamente en un historial interno, desde el cual el usuario puede:
@@ -85,66 +85,3 @@ Ajustes
 
 
 
-🔄 Flujo general de la aplicación
-[Inicio / Scanner]
-       ↓
-  Detecta QR
-       ↓
- Guarda entrada en historial
-       ↓
-[Historial]
-   • Copiar
-   • Eliminar
-   • Borrar todo
-       ↓
-[Ajustes]
-   Información del app y permisos
-
-📚 Historias de Usuario
-
-Como usuario, quiero escanear códigos QR para obtener su información rápidamente.
-
-Como usuario, quiero guardar automáticamente cada código escaneado para poder consultarlo después.
-
-Como usuario, quiero copiar el contenido de un QR para usarlo en otra aplicación.
-
-Como usuario, quiero eliminar elementos del historial para mantenerlo ordenado.
-
-Como usuario, quiero borrar todo el historial cuando ya no sea necesario.
-
-🧪 Casos de prueba manuales
-Prueba	Acción	Resultado esperado
-1. Pedir permiso de cámara	Abrir la app por primera vez	Muestra el diálogo de permisos
-2. Escanear código QR	Apuntar a un QR	Detecta el QR y lo guarda en historial
-3. Copiar contenido	En historial → Copiar	Texto copiado al portapapeles
-4. Eliminar registro	Historial → Eliminar	El elemento desaparece del listado
-5. Borrar historial completo	“Borrar todo”	Historial vacío
-6. Navegación entre pantallas	Cambiar entre Scanner / Historial / Ajustes	Navega sin errores
-🚀 Release – Versión 1.0.0
-✔ Qué funciona
-
-Escaneo de QR con expo-camera
-
-Guardado automático en AsyncStorage
-
-Copiar contenido
-
-Eliminar elementos
-
-Borrar todo el historial
-
-Navegación estable
-
-Permisos de cámara correctamente solicitados
-
-⚠ Qué falta / mejoras posibles
-
-Reconocer URLs y abrirlas directamente
-
-Tema oscuro / claro
-
-Compartir QR escaneado
-
-🐞 Bugs conocidos
-
-Si se mueve rápido la cámara, puede detectar el QR más de una vez (limitado con setScanned, pero puede depender del dispositivo).
