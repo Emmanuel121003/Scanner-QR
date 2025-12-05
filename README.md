@@ -39,7 +39,7 @@ Expo Go (para pruebas)
 
 JavaScript
 
-▶ ¿Cómo instalar / ejecutar la app?
+¿Cómo instalar / ejecutar la app?
 
 Clonar el proyecto
 
@@ -68,6 +68,8 @@ Escanea el código QR que aparece en la terminal o en el navegador
 
 Capturas de pantalla
 Pantalla principal – Escáner
+
+![Imagen de WhatsApp 2025-12-05 a las 11 35 50_6c878f31](https://github.com/user-attachments/assets/8e61d9b3-20c7-4b40-8073-1a2db5539df3)
 
 ![Imagen de WhatsApp 2025-12-04 a las 11 17 26_966d20c8](https://github.com/user-attachments/assets/86b3fa28-dfeb-405d-beb2-a8ae02487045)
 
